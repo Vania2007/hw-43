@@ -14,6 +14,4 @@ function callServer() {
     .then((data) => {
       document.getElementById("dest").innerHTML = data;
     });
-  xmlHttp.open("GET", url, true);
-  xmlHttp.send(null);
 }
